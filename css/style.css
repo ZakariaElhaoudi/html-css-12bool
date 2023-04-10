@@ -13,7 +13,6 @@
     border: solid 1px white;
     text-align: center;
     line-height: 50px;
-    height: 50px;
 }
 
 .green {
@@ -30,4 +29,8 @@
 section {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.bigger {
+    height: 100px;
 }
