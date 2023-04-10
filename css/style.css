@@ -8,25 +8,26 @@
 /* DEBUG  */
 
 [class*="col-"] {
-    background-color: darkblue;
+    background-color: rgb(60, 60, 242);
     height: 50px;
-    border: solid 2px white;
-
+    border: solid 1px white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
 }
 
 .green {
-    background-color: lightblue;
-    color: black;
-    text-align: center;
-    height: 40px;
-    margin: 5px 5px;
-  
+    color:white;
+    padding: 10px;
+    height: auto;
+}
+
+.green [class*="col-"] {
+    background-color:rgb(18, 205, 18); 
+    border: 1px solid rgb(60, 60, 242);
 }
 
 section {
+    margin-top: 10px;
     margin-bottom: 20px;
-}
-
-.row {
-    flex-wrap: nowrap;
 }
